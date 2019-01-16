@@ -13,6 +13,7 @@ class Activity2 : AppCompatActivity() {
 
         val buttonShowHome2 = findViewById<Button>(R.id.button6)
         buttonShowHome2.setOnClickListener{val intent = Intent(this, Activity1::class.java)
+            startActivity(intent)
         }
     }
 }
