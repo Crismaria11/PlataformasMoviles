@@ -13,7 +13,7 @@ class Activity1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_1)
 
-        val lista: ListView = findViewById(R.id.foodLIst)
+        val lista: ListView = findViewById<ListView>(R.id.foodLIst)
 
         var foodList = ArrayList<String>()
         foodList.add("Helado")
