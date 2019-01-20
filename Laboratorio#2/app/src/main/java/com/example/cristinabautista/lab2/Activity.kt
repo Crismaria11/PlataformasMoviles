@@ -17,7 +17,7 @@ class Activity : AppCompatActivity() {
         }
 
         val buttonShowPedido = findViewById<Button>(R.id.button2)
-        buttonShowPedido.setOnClickListener{val intent = Intent(this, Activity1::class.java)
+        buttonShowPedido.setOnClickListener{val intent = Intent(this, Activity2::class.java)
             startActivity(intent)
         }
 
