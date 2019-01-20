@@ -1,3 +1,6 @@
+/*
+* Cristina Bautista
+* Carne: 161260*/
 package com.example.cristinabautista.lab2
 
 import android.app.Application
